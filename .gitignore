@@ -1,0 +1,23 @@
+# Учётные данные
+.env
+
+# Состояние (создаётся автоматически)
+sticker_state.json
+price_history.json
+
+# Кэш картинок (скачивается автоматически)
+gift_cache/
+emoji/
+
+# Python
+*.pyc
+__pycache__/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Тестовые артефакты
+test_sticker.*
+*.tgs
